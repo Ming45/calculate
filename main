@@ -1,0 +1,7 @@
+int main() {
+	string exp;
+	Calculator cal;
+	while (getline(cin, exp))
+		cout << exp << cal.doIt(exp) << endl;
+	return 0;
+}
